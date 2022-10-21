@@ -1,0 +1,27 @@
+{
+  "name": "pod-logs",
+  "version": "1.0.1",
+  "description": "Watch logs of a kubernetes pod by selecting it from a list of pods",
+  "main": "pod-logs.js",
+  "bin": "pod-logs.js",
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "start": "node pod-logs.js",
+    "prettier": "prettier --write ."
+  },
+  "files": [
+    "pod-logs.js"
+  ],
+  "keywords": ["kubernetes", "pod", "logs"],
+  "author": "Denis Ciccale https://denis.mit-license.org/",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
