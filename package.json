@@ -1,6 +1,6 @@
 {
   "name": "pod-logs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watch logs of a kubernetes pod by selecting it from a list of pods",
   "main": "pod-logs.js",
   "bin": "pod-logs.js",
